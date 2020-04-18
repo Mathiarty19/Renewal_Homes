@@ -1,38 +1,90 @@
-.App {
+/* .App {
   text-align: center;
+} */
+
+.navbar-dark {
+  background-color: #1164b4;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.jumbotron {
+  padding-bottom: 32px;
+  /* background-image: url("https://picsum.photos/2000/1000");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1, h2, p .card-body>h5 {
+color: Black;
+font-family: 'Open Sans', sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.site-footer {
+    background:#1164b4;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
-.App-link {
-  color: #61dafb;
+ .nav-link>p {
+  color: #64b411;
+  font-size: larger;
+  /* padding-left: 40px;
+  padding-right: 40px; */
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fa-home {
+  color: #64b411;
+  /* padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px; */
+}
+
+.fa-list {
+  color: #64b411;
+  /* padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px; */
+}
+
+.fa-question {
+  color: #64b411;
+  /* padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px; */
+}
+
+.fa-address-card {
+  color: #64b411;
+  /* padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px; */
+}
+
+.fa-navicon {
+  color: #64b411;
+  /* padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px; */
+}
+
+.fa-picture-o {
+  color: #64b411;
+  /* padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px; */
+}
+
+.fa-users {
+  color: #64b411;
+  /* padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px; */
+}
+
+.p-heading1 {
+  color: #1164b4;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
