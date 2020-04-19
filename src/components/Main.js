@@ -7,7 +7,7 @@ import Footer from './Footer';
 import { AccordionOfHomes } from './AccordionOfHomes';
 import CurrentHouseCard from './CurrentHouses';
 import { Comparison } from './Comparison';
-import ContactPage from './Contact';
+import ContactMG from './Contactmg';
 import Whyus from './Whyus';
 import About from './Aboutus';
 
@@ -29,7 +29,7 @@ class Main extends Component {
               <Route exact path="/houses" render={() => <AccordionOfHomes />} />
               <Route exact path="/currenthouses" render={() => <CurrentHouseCard />} />
               <Route exact path="/compare" render={() => <Comparison />} />
-              <Route exact path="/contactus" render={() => <ContactPage />} />
+              <Route exact path="/contactus" render={() => <ContactMG />} />
               <Route exact path="/whyus" render={() => <Whyus />} />
               <Route exact path="/aboutus" render={() => <About />} />
               <Redirect to="/home" />
